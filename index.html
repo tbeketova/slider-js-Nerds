@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <section class="slider">
+    <div class="container">
+        <div class="slider-wrapper" data-slider="1">
+          <ul class="slider__list">
+            <li class="slider__item img-active">
+              <div class="slider__item-wrapper ">
+                <h2 class="slider__item-title">Любим математику как никто другой</h2>
+                <p class="slider__item-text">Никакого креатива, только математические формулы для расчета идеальных пропорций</p>
+                <a class="slider__item-btn" href="#">УЗНАТЬ БОЛЬШЕ</a>
+              </div>
+            </li>
+            <li class="slider__item">
+              <div class="slider__item-wrapper ">
+                <h2 class="slider__item-title">Долго, дорого, скрупулезно.</h2>
+                <p class="slider__item-text">Математически выверенный дизайн для вашего сайта или мобильного приложения.</p>
+                <a class="slider__item-btn" href="#">УЗНАТЬ БОЛЬШЕ</a>
+              </div>
+            </li>
+            <li class="slider__item">
+              <div class="slider__item-wrapper ">
+                <h2 class="slider__item-title">Третий слайд в слайдере.</h2>
+                <p class="slider__item-text">Математически выверенный дизайн для вашего сайта или мобильного приложения.</p>
+                <a class="slider__item-btn" href="#">УЗНАТЬ БОЛЬШЕ</a>
+              </div>
+            </li>
+          </ul>
+          <ol class="dots__list">
+            <li>
+              <button class="dot" onclick="currentSlide(1, 0)" type="button" aria-label="Первый слайдер"></button>
+            </li>
+            <li>
+              <button class="dot" onclick="currentSlide(1, 1)" type="button" aria-label="Второй слайдер"></button>
+            </li>
+            <li>
+              <button class="dot" onclick="currentSlide(1, 2)" type="button" aria-label="Третий слайдер"></button>
+            </li>
+          </ol>
+        </div>    
+    </div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
