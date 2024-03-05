@@ -32,12 +32,14 @@ body {
   position: relative;
 }
 
-.slider-item {
+.slider__item {
   height: 450px;
+  display: none;
 }
 
-.img-active {
-  background-image: url('./slide-1.png');
+.slider__item.active {
+  display: block;
+  background-image: url('./slide-0.png');
   background-repeat: no-repeat;
   background-position: right;
   background-size: 550px;
