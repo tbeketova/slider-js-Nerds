@@ -1,7 +1,7 @@
 //Функция инициализации слайдера
 function initSlider() {
-	let slides = document.querySelectorAll(".slider__wrapper  .slider__item");
-	let dots = document.querySelectorAll(".slider__wrapper  .dot");
+	let slides = document.querySelectorAll(".slider__list  .slider__item");
+	let dots = document.querySelectorAll(".dots__list  .dot");
 
 	slides = Array.from(slides); //Преобразование выбранных элементов слайдов и точек в массивы
 	dots = Array.from(dots);
